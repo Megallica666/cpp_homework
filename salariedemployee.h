@@ -8,9 +8,9 @@ using namespace std;
 
 namespace employeessavitch{
 
-    class Salariedemployee
+    class Salariedemployee :public Employee
     {
-    private:
+    protected:
         double salary;//weekly
         /* data */
     public:
@@ -31,5 +31,5 @@ namespace employeessavitch{
     }
     
 }
-
+//我是共产主义接班人，继承着革命先辈的光荣传统
 #endif SALARIEDEMPLOYEE_H

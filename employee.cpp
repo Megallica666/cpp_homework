@@ -1,3 +1,6 @@
+//This is the file:employee.cpp
+//This is the implementation for the class employee.h
+//This interface for the class Employee is in the header file employee.h
 #include <string>
 #include <cstdlib>
 #include <iostream>
@@ -38,7 +41,10 @@ namespace employeessavitch{
     }
 
     void Employee::print_check() const{
-        cout<<"\nbalalallalalala";
+        cout<< "\nERROR:print_check FUNCTION CALLED FOR AN \n"
+            << "UNDIFFERENTIAED EMPLOYEE. Aborting the program.\n"
+            << "Check with the author of the program about this bug.\n";
+            
         exit(1);
     }
 }

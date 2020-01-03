@@ -32,4 +32,4 @@ namespace employeessavitch{
     
 }
 //我是共产主义接班人，继承着革命先辈的光荣传统
-#endif SALARIEDEMPLOYEE_H
+#endif 

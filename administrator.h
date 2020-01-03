@@ -30,7 +30,7 @@ namespace administrator
 
     };
     
-    administrator::administrator(/* args */)
+    administrator::administrator()
     {
     }
     

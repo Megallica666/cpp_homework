@@ -23,7 +23,7 @@ namespace employeessavitch{
         void set_hours(double hours_worked);
         double get_hours() const;
         void print_check();
-        ~HourlyEmployee();
+        
     };
 }
 

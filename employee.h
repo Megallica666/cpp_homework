@@ -23,7 +23,6 @@ namespace employeessavitch{
         void set_ssn(string new_ssn);
         void set_net_pay(double new_net_pay);
         void print_check() const;
-        ~Employee();
     };
 }
 

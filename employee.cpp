@@ -44,7 +44,6 @@ namespace employeessavitch{
         cout<< "\nERROR:print_check FUNCTION CALLED FOR AN \n"
             << "UNDIFFERENTIAED EMPLOYEE. Aborting the program.\n"
             << "Check with the author of the program about this bug.\n";
-            
         exit(1);
     }
 }

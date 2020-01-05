@@ -12,7 +12,6 @@ namespace employeessavitch{
     {
     protected:
         double salary;//weekly
-        /* data */
     public:
         Salariedemployee();
         Salariedemployee(string the_name,string the_ssn,double the_weekly_salary);
